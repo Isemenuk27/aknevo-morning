@@ -1,0 +1,52 @@
+"Water"
+{
+	"%compilewater" 1
+	"%tooltexture" "dev/water_normal"
+
+	"$abovewater" 1
+
+	"$envmap" "env_cubemap"
+	"$refracttexture" "_rt_WaterRefraction"
+	//"$refracttint" "[.75 .75 .75]"
+
+	"$reflectamount" "1.0"
+	//"$reflecttint" "[1 1 1]"
+
+	"$cheapwaterstartdistance" "2000"
+	"$cheapwaterenddistance" "3000"
+
+	"$scale" "[1 1]"
+
+	"$bumpmap" "dev/water_dudv"
+	"$normalmap" "dev/water_normal"
+
+	"$surfaceprop" "water"
+	"$bottommaterial" "water/aknevo_cheapwater_beneath"
+	"$bumpframe" "0"
+
+	"$fogenable" 1
+	"$fogcolor" "{152 152 152}"
+	"$fogstart" 100.00
+	"$fogend" 8000.00
+
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+
+		"TextureScroll"
+		{
+			"texturescrollvar" "$bumptransform"
+			"texturescrollrate" .05
+			"texturescrollangle" 45.00
+		}
+
+		"WaterLOD"
+		{
+		}
+	}
+}

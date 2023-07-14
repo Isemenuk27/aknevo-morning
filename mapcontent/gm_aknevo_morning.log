@@ -1,0 +1,338 @@
+materialPath: E:\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\isemenuk27\desktop\decompiled\aknevo\gm_aknevo_morning.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Error! Variable "$surfaceprop" is multiply defined in material "nature/blendrockgravel001a"!
+Error! Variable "$surfaceprop" is multiply defined in material "nature/blendrockgravel001a"!
+Patching WVT material: maps/gm_aknevo_morning/nature/blendsandsand008b_antlion_wvt_patch
+Patching WVT material: maps/gm_aknevo_morning/nature/blendgrassgravel001a_wvt_patch
+Patching WVT material: maps/gm_aknevo_morning/nature/blendgrassgrass001a_wvt_patch
+Patching WVT material: maps/gm_aknevo_morning/nature/blendmuddirt001a_wvt_patch
+Patching WVT material: maps/gm_aknevo_morning/nature/blendsandsand008b_wvt_patch
+Patching WVT material: maps/gm_aknevo_morning/nature/blendrockgravel001a_wvt_patch
+Patching WVT material: maps/gm_aknevo_morning/nature/blenddirtgrass008b_wvt_patch
+Patching WVT material: maps/gm_aknevo_morning/nature/blendsandsand008a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1764 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (4)
+writing c:\users\isemenuk27\desktop\decompiled\aknevo\gm_aknevo_morning.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_03_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+*** Error: Skybox vtf files for skybox/sky_day02_03_hdr weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_day02_03_hdr to build the default cubemap!
+Finding displacement neighbors...
+Warning: invalid neighbor connection on displacement near (10240.97 -4352.00 -992.00)
+Warning: invalid neighbor connection on displacement near (10285.61 -4096.00 -781.61)
+Warning: invalid neighbor connection on displacement near (10048.00 -4416.00 -992.00)
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (10) (16349295 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 8130 texinfos to 4693
+Reduced 422 texdatas to 319 (14046 bytes to 11192)
+Writing c:\users\isemenuk27\desktop\decompiled\aknevo\gm_aknevo_morning.bsp
+26 seconds elapsed
+
+
+
+2 threads
+reading c:\users\isemenuk27\desktop\decompiled\aknevo\gm_aknevo_morning.bsp
+reading c:\users\isemenuk27\desktop\decompiled\aknevo\gm_aknevo_morning.prt
+3833 portalclusters
+8255 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 64378 visible clusters (3.45%)
+Total clusters visible: 1867776
+Average clusters visible: 487
+Building PAS...
+Average clusters audible: 1794
+visdatasize:1935753  compressed from 3679680
+writing c:\users\isemenuk27\desktop\decompiled\aknevo\gm_aknevo_morning.bsp
+4 hours, 4 minutes, 32 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isemenuk27\desktop\decompiled\aknevo\gm_aknevo_morning.bsp
+PREP OK
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+23455 faces
+8 degenerate faces
+22643624 square feet [3260681728.00 square inches]
+980 Displacements
+2576718 Square Feet [371047392.00 Square Inches]
+23447 patches before subdivision
+320695 patches after subdivision
+448 direct lights
+0...1...2...
+WARNING: Too many light styles on a face at (2160.000000, -4239.552734, -88.894424)
+3
+WARNING: Too many light styles on a face at (2184.000000, -4191.000000, -232.000000)
+.
+WARNING: Too many light styles on a face at (3024.000000, -2640.000000, -223.000000)
+
+WARNING: Too many light styles on a face at (2176.000000, -4240.000000, -223.000000)
+
+WARNING: Too many light styles on a face at (2968.000000, -2689.000000, -232.000000)
+..4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 33481182, max 3146
+transfer lists: 255.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(515970, 480738, 332123)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(135592, 118185, 62754)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(29855, 25123, 12396)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(10443, 8440, 3563)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3344, 2600, 1011)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1275, 950, 325)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(483, 343, 105)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(195, 132, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(79, 51, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 20, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(14, 8, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(6, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.6956 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+36 of 53 (67% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 228/4096        10944/196608   ( 5.6%) 
+brushes               6719/16384       80628/196608   (41.0%) 
+brushsides           45437/163840     363496/1310720  (27.7%) 
+planes               15942/65536      318840/1310720  (24.3%) 
+vertexes             40563/65536      486756/786432   (61.9%) 
+nodes                11402/65536      364864/2097152  (17.4%) 
+texinfos              4693/12288      337896/884736   (38.2%) 
+texdata                319/2048        10208/65536    (15.6%) 
+dispinfos              980/0          172480/0        ( 0.0%) 
+disp_verts           79316/0         1586320/0        ( 0.0%) 
+disp_tris           125440/0          250880/0        ( 0.0%) 
+disp_lmsamples     1009504/0         1009504/0        ( 0.0%) 
+faces                23455/65536     1313480/3670016  (35.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            15172/65536      849632/3670016  (23.2%) 
+leaves               11631/65536      372192/2097152  (17.7%) 
+leaffaces            26877/65536       53754/131072   (41.0%) 
+leafbrushes          17695/65536       35390/131072   (27.0%) 
+areas                   46/1024          368/8192     ( 4.5%) 
+surfedges           175310/512000     701240/2048000  (34.2%) 
+edges               113778/256000     455112/1024000  (44.4%) 
+LDR worldlights        448/8192        39424/720896   ( 5.5%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips           2531/32768       25310/327680   ( 7.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         49485/65536       98970/131072   (75.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]    17682236/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1935753/16777216 (11.5%) 
+entdata               [variable]      384258/393216   (97.7%) VERY FULL!
+LDR ambient table    11631/65536       46524/262144   (17.7%) 
+HDR ambient table    11631/65536       46524/262144   (17.7%) 
+LDR leaf ambient     36620/65536     1025360/1835008  (55.9%) 
+HDR leaf ambient     11631/65536      325668/1835008  (17.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/909188   ( 0.0%) 
+dtl prp lght          [variable]           1/39       ( 2.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/39870    ( 0.0%) 
+pakfile               [variable]     1564871/0        ( 0.0%) 
+physics               [variable]    16349295/4194304  (389.8%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 67850
+Writing c:\users\isemenuk27\desktop\decompiled\aknevo\gm_aknevo_morning.bsp
+17 minutes, 35 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\isemenuk27\desktop\decompiled\aknevo\gm_aknevo_morning.bsp
+PREP OK
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+23455 faces
+8 degenerate faces
+22643624 square feet [3260681728.00 square inches]
+980 Displacements
+2576718 Square Feet [371047392.00 Square Inches]
+23447 patches before subdivision
+320695 patches after subdivision
+448 direct lights
+0...1...2...
+WARNING: Too many light styles on a face at (2160.000000, -4239.552734, -88.894424)
+3
+WARNING: Too many light styles on a face at (2184.000000, -4191.000000, -232.000000)
+.
+WARNING: Too many light styles on a face at (3024.000000, -2640.000000, -223.000000)
+
+WARNING: Too many light styles on a face at (2176.000000, -4240.000000, -223.000000)
+
+WARNING: Too many light styles on a face at (2968.000000, -2689.000000, -232.000000)
+..4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 33481182, max 3146
+transfer lists: 255.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(477205, 450766, 322482)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(117728, 104155, 59078)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(27219, 23161, 11929)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(9516, 7775, 3428)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(3176, 2486, 990)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(1224, 917, 320)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(473, 337, 104)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(192, 130, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(79, 51, 12)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(33, 20, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(14, 8, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(6, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<1.6346 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+36 of 53 (67% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 228/4096        10944/196608   ( 5.6%) 
+brushes               6719/16384       80628/196608   (41.0%) 
+brushsides           45437/163840     363496/1310720  (27.7%) 
+planes               15942/65536      318840/1310720  (24.3%) 
+vertexes             40563/65536      486756/786432   (61.9%) 
+nodes                11402/65536      364864/2097152  (17.4%) 
+texinfos              4693/12288      337896/884736   (38.2%) 
+texdata                319/2048        10208/65536    (15.6%) 
+dispinfos              980/0          172480/0        ( 0.0%) 
+disp_verts           79316/0         1586320/0        ( 0.0%) 
+disp_tris           125440/0          250880/0        ( 0.0%) 
+disp_lmsamples     1009504/0         1009504/0        ( 0.0%) 
+faces                23455/65536     1313480/3670016  (35.8%) 
+hdr faces            23455/65536     1313480/3670016  (35.8%) 
+origfaces            15172/65536      849632/3670016  (23.2%) 
+leaves               11631/65536      372192/2097152  (17.7%) 
+leaffaces            26877/65536       53754/131072   (41.0%) 
+leafbrushes          17695/65536       35390/131072   (27.0%) 
+areas                   46/1024          368/8192     ( 4.5%) 
+surfedges           175310/512000     701240/2048000  (34.2%) 
+edges               113778/256000     455112/1024000  (44.4%) 
+LDR worldlights        448/8192        39424/720896   ( 5.5%) 
+HDR worldlights        448/8192        39424/720896   ( 5.5%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips           2531/32768       25310/327680   ( 7.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         49485/65536       98970/131072   (75.5%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                 1/1024          352/360448   ( 0.1%) 
+LDR lightdata         [variable]    17682236/0        ( 0.0%) 
+HDR lightdata         [variable]    17682236/0        ( 0.0%) 
+visdata               [variable]     1935753/16777216 (11.5%) 
+entdata               [variable]      384258/393216   (97.7%) VERY FULL!
+LDR ambient table    11631/65536       46524/262144   (17.7%) 
+HDR ambient table    11631/65536       46524/262144   (17.7%) 
+LDR leaf ambient     36620/65536     1025360/1835008  (55.9%) 
+HDR leaf ambient     36566/65536     1023848/1835008  (55.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/909188   ( 0.0%) 
+dtl prp lght          [variable]           1/39       ( 2.6%) 
+HDR dtl prp lght      [variable]           1/39       ( 2.6%) 
+static props          [variable]           1/39870    ( 0.0%) 
+pakfile               [variable]     3075901/0        ( 0.0%) 
+physics               [variable]    16349295/4194304  (389.8%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 3
+
+Total triangle count: 67850
+Writing c:\users\isemenuk27\desktop\decompiled\aknevo\gm_aknevo_morning.bsp
+17 minutes, 45 seconds elapsed
