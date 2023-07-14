@@ -9,7 +9,7 @@ if ( CLIENT ) then
 	local s = FogEnd * 0.6
 	local x = Vector( s, s, s ) 
 
-	local coln = 0.446 * 255
+	local coln = 0.746 * 255
 	--local col = Color(133, 144, 153)
 
 	local col = Color( coln, coln, coln )
@@ -116,6 +116,17 @@ else
 
 		ent:Spawn()
 		ent:SetMoveType( MOVETYPE_NONE )
+
+		local Tonemap = ents.Create("env_tonemap_controller")
+		Tonemap:SetPos( Vector( -10571, -1045, 251 ) )
+		Tonemap:Spawn()
+		Tonemap:Activate()
+		Tonemap:SetName("TONEMAP")
+
+		Tonemap:Fire("SetBloomScale", "0.7")
+		Tonemap:Fire("SetAutoExposureMax", "0.86")
+		Tonemap:Fire("SetAutoExposureMin", "0.2")
+		Tonemap:Fire("setbloomscale", "0.3")
 	end
 
 	hook.Add( "InitPostEntity", "AKNEVO", MapCleanup )
